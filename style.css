@@ -32,3 +32,29 @@ h1, h2, p {
   grid-template
 ::contentReference[oaicite:0]{index=0}
  
+nav {
+  background-color: #8B4513; /* SaddleBrown */
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
